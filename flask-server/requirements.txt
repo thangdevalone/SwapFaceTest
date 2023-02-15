@@ -1,0 +1,6 @@
+dlib
+numpy
+opencv-python
+scipy
+flask
+flask_cors

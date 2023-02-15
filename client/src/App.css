@@ -1,0 +1,47 @@
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.App{
+  background-color: #282c34;
+  height: 100vh;
+  color: white;
+
+
+}
+.ant-upload-list-item-name{
+  color:white !important;
+}
+.ant-upload-wrapper .ant-upload-list .ant-upload-list-item .ant-upload-list-item-actions .anticon{
+  color:white !important;
+  
+}
+.App-header >* {
+  margin: 0;
+
+}
+.ant-form-item .ant-form-item-label >label{
+  color: white !important;
+}
+.container{
+  margin-top: 10px;
+}
+.App-header{
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
