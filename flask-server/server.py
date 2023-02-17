@@ -36,4 +36,4 @@ def upload():
     im_b64 = base64.b64encode(im_bytes)
     return "data:image/png;base64,{}".format(im_b64.decode('utf-8'))
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0')

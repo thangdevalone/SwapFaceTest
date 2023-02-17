@@ -6,7 +6,6 @@ const uploadApi = {
         const url = `/upload`
         return axiosClient.post(url, formData, {
             headers: {
-              // Authorization: `Bearer ${getLocalStorageToken()}`,
               "Content-Type": 'multipart/form-data',
             },
           })

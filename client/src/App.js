@@ -41,6 +41,7 @@ function App() {
         "face1":avatar1[0].thumbUrl.split(',')[1],
         "face2":avatar2[0].thumbUrl.split(',')[1],
       }
+      
 
       const response = await uploadApi.upload(result)
       setRs(response)
