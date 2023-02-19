@@ -43,8 +43,8 @@ function App() {
       }
       
 
-      const response = await uploadApi.upload(result)
-      setRs(response)
+      const {link} = await uploadApi.upload(result)
+      setRs(link)
       setLoading(false)
     } catch (err) {
 

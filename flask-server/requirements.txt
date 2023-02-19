@@ -4,3 +4,5 @@ opencv-python
 scipy
 flask
 flask_cors
+flask-swagger-ui
+json
